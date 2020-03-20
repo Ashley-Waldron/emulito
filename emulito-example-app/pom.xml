@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>emulito-example-app</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <properties>
+        <spring.boot.version>2.1.6.RELEASE</spring.boot.version> <!-- must match boot version in refarch --> <!-- incompatible types: org.springframework.boot.actuate.health.HealthComponent cannot be converted to org.springframework.boot.actuate.health.Health -->
+        <spring.framework.version>5.1.8.RELEASE</spring.framework.version>
+        <spring.security.version>5.2.1.RELEASE</spring.security.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.emulito</groupId>
+            <artifactId>emulito-core</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>${spring.security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>${spring.security.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

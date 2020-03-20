@@ -1,0 +1,20 @@
+{
+  "predicate": {
+    "requestType": "imdb_film_search",
+    "rules": [
+      "url contains 't=Predator",
+      "url contains 'y=1987",
+      "url contains 'plot=full"
+    ]
+  },
+  "timeToLive": "FOREVER",
+  "response": {
+    "statusCode": "200",
+    "headers": {
+      "content-type": [
+        "application/json; charset=utf-8"
+      ]
+    },
+    "body": "{\"Title\":\"Predator\",\"Year\":\"1987\",\"Rated\":\"R\",\"Released\":\"12 Jun 1987\",\"Runtime\":\"107 min\",\"Genre\":\"Action, Adventure, Sci-Fi, Thriller\",\"Director\":\"John McTiernan\",\"Writer\":\"Jim Thomas, John Thomas\",\"Actors\":\"Arnold Schwarzenegger, Carl Weathers, Elpidia Carrillo, Bill Duke\",\"Plot\":\"A team of special force ops, led by a tough but fair soldier, Major \\\"Dutch\\\" Schaefer, are ordered to assist CIA man, Colonel Al Dillon, on a rescue mission for potential survivors of a Helicopter downed over remote South American jungle. Not long after they land, Dutch and his team discover that they have been sent in under false pretenses. This deception turns out to be the least of their worries though, when they find themselves being methodically hunted by something not of this world.\",\"Language\":\"English, Spanish, Russian\",\"Country\":\"USA, Mexico\",\"Awards\":\"Nominated for 1 Oscar. Another 3 wins & 5 nominations.\",\"Poster\":\"https://m.media-amazon.com/images/M/MV5BY2QwYmFmZTEtNzY2Mi00ZWMyLWEwY2YtMGIyNGZjMWExOWEyXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg\",\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"7.8/10\"},{\"Source\":\"Rotten Tomatoes\",\"Value\":\"81%\"},{\"Source\":\"Metacritic\",\"Value\":\"45/100\"}],\"Metascore\":\"45\",\"imdbRating\":\"7.8\",\"imdbVotes\":\"354,610\",\"imdbID\":\"tt0093773\",\"Type\":\"movie\",\"DVD\":\"26 Dec 2000\",\"BoxOffice\":\"N/A\",\"Production\":\"20th Century Fox\",\"Website\":\"N/A\",\"Response\":\"True\"}"
+  }
+}
