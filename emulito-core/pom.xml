@@ -13,7 +13,7 @@
         <spring.framework.version>5.1.8.RELEASE</spring.framework.version>
         <spring.security.version>5.2.1.RELEASE</spring.security.version>
         <jackson.version>2.9.9</jackson.version> <!-- When upgraded to 2.10.1, Spring complains: Error Creating bean jacksonObjectMapper defined in class path. IllegalStateException: Failed to introspect Class com.fasterxml.jackson.databind.ObjectMapper from ClassLoader -->
-        <guava.version>28.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <commons.lang.version>3.9</commons.lang.version>
         <commons.collection.version>4.3</commons.collection.version>
         <httpcomponents.core.version>4.4.12</httpcomponents.core.version>
