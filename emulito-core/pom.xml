@@ -12,7 +12,7 @@
         <spring.boot.version>2.1.6.RELEASE</spring.boot.version> <!-- must match boot version in refarch --> <!-- incompatible types: org.springframework.boot.actuate.health.HealthComponent cannot be converted to org.springframework.boot.actuate.health.Health -->
         <spring.framework.version>5.1.8.RELEASE</spring.framework.version>
         <spring.security.version>5.2.1.RELEASE</spring.security.version>
-        <jackson.version>2.9.9</jackson.version> <!-- When upgraded to 2.10.1, Spring complains: Error Creating bean jacksonObjectMapper defined in class path. IllegalStateException: Failed to introspect Class com.fasterxml.jackson.databind.ObjectMapper from ClassLoader -->
+        <jackson.version>2.12.6.1</jackson.version> <!-- When upgraded to 2.10.1, Spring complains: Error Creating bean jacksonObjectMapper defined in class path. IllegalStateException: Failed to introspect Class com.fasterxml.jackson.databind.ObjectMapper from ClassLoader -->
         <guava.version>28.1-jre</guava.version>
         <commons.lang.version>3.9</commons.lang.version>
         <commons.collection.version>4.3</commons.collection.version>
